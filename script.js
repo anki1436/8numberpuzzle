@@ -202,48 +202,48 @@ puzzleBlocks();
 
 
 // shuffle(data);
-function shuffleBoard(data) {
+// function shuffleBoard(data) {
     
-    for (var i = 0; i < data.length; i++) {
-        for (var j = 0; j < data[i].length; j++) {
-            var i1 = Math.floor(Math.random() * (data.length));
-            var j1 = Math.floor(Math.random() * (data.length));
+//     for (var i = 0; i < data.length; i++) {
+//         for (var j = 0; j < data[i].length; j++) {
+//             var i1 = Math.floor(Math.random() * (data.length));
+//             var j1 = Math.floor(Math.random() * (data.length));
 
-            var temp = data[i][j];
-            data[i][j] = data[i1][j1];
-            data[i1][j1] = temp;
+//             var temp = data[i][j];
+//             data[i][j] = data[i1][j1];
+//             data[i1][j1] = temp;
 
             
 
-        }
+//         }
 
 
-    }
+//     }
 
-    console.table(data);
+//     console.table(data);
     
-    $("game-container").html("");
-    // const numbers = [65, 44, 12, 4];
-    // numbers.forEach(myFunction)
+//     $("game-container").html("");
+//     // const numbers = [65, 44, 12, 4];
+//     // numbers.forEach(myFunction)
     
-    // document.getElementById("demo").innerHTML = numbers;
+//     // document.getElementById("demo").innerHTML = numbers;
 
-//     data[0].forEach(singleShuffle)
-//     document.getElementById("game-container").innerHTML = data[0];
-//     data[1].forEach(singleShuffle)
-//     document.getElementById("game-container").innerHTML = data[1];
-//     data[2].forEach(singleShuffle)
-//     document.getElementById("game-container").innerHTML = data[2];
+// //     data[0].forEach(singleShuffle)
+// //     document.getElementById("game-container").innerHTML = data[0];
+// //     data[1].forEach(singleShuffle)
+// //     document.getElementById("game-container").innerHTML = data[1];
+// //     data[2].forEach(singleShuffle)
+// //     document.getElementById("game-container").innerHTML = data[2];
 
 
+// // }
+// //     function singleShuffle(item, index, arr) {
+// //         arr[index] = item;
+// //         var div = document.createElement("div");
+// //           div.innerHTML = document.getElementsByClassName("game-box").value;
+// //           document.body.appendChild(div);
+// //       }
 // }
-//     function singleShuffle(item, index, arr) {
-//         arr[index] = item;
-//         var div = document.createElement("div");
-//           div.innerHTML = document.getElementsByClassName("game-box").value;
-//           document.body.appendChild(div);
-//       }
-}
 
     //   shuffleBoard(data);
-      console.log(data)
+    //   console.log(data)
